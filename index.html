@@ -3,12 +3,20 @@
   <head>
 
 	  <title>Springfield Chronicle Article</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
 
 	  <style type="text/css" media="screen">@import url(res/global.css);
       body{padding:0; margin:0;}
-      div.header{max-width:1000px; margin:0 auto; text-align:center;}
-      div.header hr{width:30%; color:#A21818; background:#A21818; border:none; height:2px; margin:5vw auto}
+      div.grid-holder{display:grid; grid-template-rows:50px auto 150px; min-height:100vh;}
+      div.header{background:#65b857; grid-column-start:2; grid-column-end:3;}
+      div.frame{background:#ffffff; grid-column-start:2; grid-column-end:3;}
+      div.footer{background:#ECECEC; grid-column-start:2; grid-column-end:3;}
+      div.header hr{width:30%; color:#000; background:#000; border:none; height:2px; margin:5vw auto}
+
+      div.main-block{max-height:100vh; display:grid; grid-template-columns: 1fr 1fr; grid-gap:2vh; background:#000; color:#eee;}
+      div.main-img img{width:100%; height:100vh; object-fit:contain;}
+      div.main-text{align-self: center; max-width: 65ch;}
 
       div.content-holder{max-width:800px; margin:4vw auto ; }
       div.head-image img{width:100%;}
@@ -24,6 +32,23 @@
   <body>
 
 
+
+  <div class="main-block">
+    <div class="main-img">
+      <img src="res/1.png"/>
+    </div>
+    <div class="main-text">
+      <h1>
+        "are online portfolios with purposefully limited bodies of work a drain on society?""
+      </h1>
+    </div>
+  </div>
+
+<div class="grid-holder">
+  <div class="header"></div>
+  <div class="frame"></div>
+  <div class="footer"></div>
+</div>
 
 
 
