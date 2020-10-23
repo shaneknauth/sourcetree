@@ -54,7 +54,7 @@ table {
 
 
 
-/*Global styles begin*/
+/*Global styles begin
 body{font-family: 'Roboto', sans-serif;}
 div.rtf{max-width:75ch; margin:40px auto; }
 div.rtf p {font-size:1em;   line-height:1.8em; font-weight:400; margin:0 0 1.4em 0; text-align: left}
@@ -76,4 +76,4 @@ ul li{margin:0 0 0 2em;font-weight:300; font-size:1.8em; font-style:italic}
 ol{margin:0 0 0.8em 0; line-height:1.8em; font-weight:400;  list-style-type:decimal; text-align: center}
 ol li{margin:0 0 0 2em;font-weight:300; font-size:1.8em; font-style:italic}
 
-/*Global styles end*/
+Global styles end*/

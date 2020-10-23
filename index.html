@@ -5,83 +5,86 @@
 	  <title>Springfield Chronicle Article</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
+    <style type="text/css" media="screen">@import url(res/global.css);
 
-	  <style type="text/css" media="screen">@import url(res/global.css);
-      body{padding:0; margin:0;}
-      div.grid-holder{display:grid; grid-template-rows:50px auto 150px; min-height:100vh;}
+      body{padding:0; margin:0; font-family: 'Roboto', sans-serif; background:#ccc;}
+
+      div.grid-holder{display:grid; grid-template-rows:50px auto 150px; min-height:100vh; grid-template-columns: auto min(max(600px, 80vw), 1000px) auto;}
+
       div.header{background:#65b857; grid-column-start:2; grid-column-end:3;}
       div.frame{background:#ffffff; grid-column-start:2; grid-column-end:3;}
       div.footer{background:#ECECEC; grid-column-start:2; grid-column-end:3;}
-      div.header hr{width:30%; color:#000; background:#000; border:none; height:2px; margin:5vw auto}
 
-      div.main-block{max-height:100vh; display:grid; grid-template-columns: 1fr 1fr; grid-gap:2vh; background:#000; color:#eee;}
-      div.main-img img{width:100%; height:100vh; object-fit:contain;}
-      div.main-text{align-self: center; max-width: 65ch;}
+      div.rtf{font-size: min(max(0.8em, 1.2vw), 1.2em);}
+      div.rtf p{font-size:1em; line-height:1.8em; margin:0 0 0.7em 0;}
+      div.rtf h1{font-size:2.5em; line-height:1.8em; font-weight:bold; margin:0 0 0.8em 0.8em; text-align: center;}
+      div.rtf h2{font-size:1.75em; line-height: 1em; font-weight:400;  margin:0 0 1.3em 0; text-align: center;}
+      div.rtf h3{font-size:1em; line-height:1em; font-weight:400; margin:0 0 .5em 0; text-align: center;}
+      div.rtf h4{font-size:1em; line-height:1em; font-weight:200; margin:0 0 3em 0; text-align: center;}
+      div.rtf h5{font-size:1em; line-height:1.8em; font-weight:bold; margin:0 0 0.8em 0;}
+      div.rtf h6{font-size:1em; line-height:1.8em; font-weight:bold; margin:0 0 0.8em 0;}
 
-      div.content-holder{max-width:800px; margin:4vw auto ; }
-      div.head-image img{width:100%;}
+      div.header-img{margin:0 0 20px 0;}
+      div.header-img img{width:100%;}
 
-      div.text-frame{max-width:55ch; margin:0 auto 4vw auto; padding:2vw 4vw;}
-
-		  a {text-decoration-line:none; color:#000000; font-weight:500; padding:2vw 2vw; }
+      div.article-body{max-width:75ch; margin:0 auto 20px auto; padding:0 20px;}
+      div.article-img{margin:0 0 20px 0;}
+      div.article-img img{width:100%;}
 
 	  </style>
-
-
   </head>
-  <body>
 
 
 
-  <div class="main-block">
-    <div class="main-img">
-      <img src="res/1.png"/>
-    </div>
-    <div class="main-text">
-      <h1>
-        "are online portfolios with purposefully limited bodies of work a drain on society?""
-      </h1>
+<body>
+
+<div class="grid-holder">
+
+  <div class="header">
+    <div class="rtf">
+    <h1>Springfield Chronicle</h1>
     </div>
   </div>
 
-<div class="grid-holder">
-  <div class="header"></div>
-  <div class="frame"></div>
-  <div class="footer"></div>
-</div>
+  <div class="frame">
 
+    <div class="article-body rtf">
 
+      <p><a href="#">home</a> <a href="#">news</a> <a href="#">art</a> <a href="#">sports</a> <a href="#">health</a> <a href="#">business</a> <a href="#">popular</a> <a href="#">shop</a></p>
 
-	  <div class="header-holder">
-      <div class="header">
+      <h2>Missouri State University Art + Design Department Goes Abroad to Italy</h2>
 
-		  <img src="res/1.png" width="300em" alt=""/>
+      <h3>By Shane Knauth</h3>
+      <h4>September 1, 2020</h4>
 
-      <div class="rtf">
+      <div class="full"><img src="res/1.jpg" alt="Italian Skyline"></div>
 
-<h1>Springfield Chronicle</h1>
+    	<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada augue tortor, fermentum sodales orci pulvinar ac. Nunc consectetur sed tortor vel hendrerit. Phasellus commodo mi lectus, a efficitur ex iaculis ut. Fusce elementum magna elit, in mollis diam eleifend ac. Proin efficitur ac odio et pharetra. In nulla velit, efficitur a quam at, efficitur bibendum velit. Nulla dolor sapien, rutrum eget commodo varius, sodales in libero. Aliquam feugiat lorem massa, eget fermentum risus sodales eu. Vestibulum eleifend egestas ullamcorper.</p>
 
-        <p><a href="#">home</a> <a href="#">news</a> <a href="#">art</a> <a href="#">sports</a> <a href="#">health</a> <a href="#">business</a> <a href="#">popular</a> <a href="#">shop</a></p>
+      <p><strong>Sed varius risus sit amet commodo tincidunt. Suspendisse ultrices non diam ac tincidunt. Fusce viverra faucibus mauris, eu fermentum nisl laoreet eu. Sed sollicitudin varius odio rhoncus vehicula. Nunc at nibh vel orci eleifend mattis. Maecenas non aliquet nisi. Vivamus nec elit quis mi lobortis ultricies. Aliquam scelerisque metus a semper vehicula. Etiam consequat nunc non enim fermentum dignissim. Cras rutrum scelerisque tortor, sed tincidunt odio laoreet et. Duis fermentum est nec interdum ornare. Donec sagittis felis sed elit auctor, vitae feugiat metus aliquam. Curabitur euismod nisi ut purus faucibus interdum.</p>
 
-<div class="rtf">
+      <p><strong>Vestibulum pellentesque vitae quam at feugiat. Phasellus varius velit et ornare consectetur. Quisque sit amet dolor nec turpis feugiat fermentum. Proin volutpat enim et scelerisque venenatis. Sed ornare metus id dolor luctus, nec ultricies nulla elementum. Integer blandit malesuada tellus, commodo laoreet sem suscipit non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin non orci sit amet risus luctus tincidunt eget ut sapien. Donec a justo justo. Quisque at orci vel tortor maximus sollicitudin a eu magna. Pellentesque lobortis diam elit, vitae tristique nulla cursus id. Mauris risus neque, gravida consequat tellus eleifend, vehicula vehicula eros. Etiam eleifend vulputate ligula eu ultricies. Donec finibus congue erat, aliquam volutpat diam molestie ac.</p>
 
-	<h2>Missouri State University Art + Design Department Goes Abroad to Italy</h2>
+      <p><strong>Nunc at tortor ante. Vivamus pretium sit amet est sit amet malesuada. Nam elementum nibh tortor, quis cursus erat egestas vitae. Praesent imperdiet ipsum et tempor consectetur. Aliquam iaculis efficitur augue sit amet gravida. Mauris purus orci, varius vitae finibus tincidunt, gravida id eros. Donec egestas lobortis nisi sed porta. In dictum viverra turpis ac mattis. Aliquam erat volutpat. Etiam sed urna nunc. Nullam eu blandit dolor. Cras aliquam tortor ac libero eleifend, id imperdiet urna volutpat.</p>
 
-	<h3>By Shane Knauth</h3>
-	<h4>September 1, 2020</h4>
-
-  <div class="full"><img src="res/1.jpg" alt="Italian Skyline"></div>
-
-	<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada augue tortor, fermentum sodales orci pulvinar ac. Nunc consectetur sed tortor vel hendrerit. Phasellus commodo mi lectus, a efficitur ex iaculis ut. Fusce elementum magna elit, in mollis diam eleifend ac. Proin efficitur ac odio et pharetra. In nulla velit, efficitur a quam at, efficitur bibendum velit. Nulla dolor sapien, rutrum eget commodo varius, sodales in libero. Aliquam feugiat lorem massa, eget fermentum risus sodales eu. Vestibulum eleifend egestas ullamcorper.</p>
-
-<p><strong>Sed varius risus sit amet commodo tincidunt. Suspendisse ultrices non diam ac tincidunt. Fusce viverra faucibus mauris, eu fermentum nisl laoreet eu. Sed sollicitudin varius odio rhoncus vehicula. Nunc at nibh vel orci eleifend mattis. Maecenas non aliquet nisi. Vivamus nec elit quis mi lobortis ultricies. Aliquam scelerisque metus a semper vehicula. Etiam consequat nunc non enim fermentum dignissim. Cras rutrum scelerisque tortor, sed tincidunt odio laoreet et. Duis fermentum est nec interdum ornare. Donec sagittis felis sed elit auctor, vitae feugiat metus aliquam. Curabitur euismod nisi ut purus faucibus interdum.</p>
-
-<p><strong>Vestibulum pellentesque vitae quam at feugiat. Phasellus varius velit et ornare consectetur. Quisque sit amet dolor nec turpis feugiat fermentum. Proin volutpat enim et scelerisque venenatis. Sed ornare metus id dolor luctus, nec ultricies nulla elementum. Integer blandit malesuada tellus, commodo laoreet sem suscipit non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin non orci sit amet risus luctus tincidunt eget ut sapien. Donec a justo justo. Quisque at orci vel tortor maximus sollicitudin a eu magna. Pellentesque lobortis diam elit, vitae tristique nulla cursus id. Mauris risus neque, gravida consequat tellus eleifend, vehicula vehicula eros. Etiam eleifend vulputate ligula eu ultricies. Donec finibus congue erat, aliquam volutpat diam molestie ac.</p>
-
-<p><strong>Nunc at tortor ante. Vivamus pretium sit amet est sit amet malesuada. Nam elementum nibh tortor, quis cursus erat egestas vitae. Praesent imperdiet ipsum et tempor consectetur. Aliquam iaculis efficitur augue sit amet gravida. Mauris purus orci, varius vitae finibus tincidunt, gravida id eros. Donec egestas lobortis nisi sed porta. In dictum viverra turpis ac mattis. Aliquam erat volutpat. Etiam sed urna nunc. Nullam eu blandit dolor. Cras aliquam tortor ac libero eleifend, id imperdiet urna volutpat.</p>
-
-
+      <div class="full"><img src="res/2.jpg" alt="Italian Skyline"></div>
+      <p><strong>Abstract art is making a modern comeback.</p>
+      <div class="full"><img src="res/3.jpeg" alt="Italian Skyline"></div>
+      <p><strong>Thinking about going vegan? Good decision.</p>
+      <div class="full"><img src="res/4.jpg" alt="Italian Skyline"></div>
+      <p><strong>Studies show decline in drawing interest.</p>
+      <div class="full"><img src="res/5.jpg" alt="Italian Skyline"></div>
+      <p><strong>How to use are for the movements of today.</p>
+      <div class="full"><img src="res/6.jpg" alt="Italian Skyline"></div>
+      <p><strong>Why younger people are wearing masks.</p>
 
     </div>
+
+  <div class="footer"></div>
+
+  </div>
+
+</div>
+
   </body>
 </html>
